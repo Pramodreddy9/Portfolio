@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>V. Pramod Reddy - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: #f4f4f4;
+        }
+        header {
+            background: url('header-image.jpg') no-repeat center center/cover;
+            height: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+            font-size: 28px;
+            font-weight: bold;
+            text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+        section {
+            max-width: 900px;
+            margin: 50px auto;
+            background: #1e1e1e;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(255, 255, 255, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+        section:hover {
+            transform: scale(1.02);
+        }
+        h2 {
+            text-align: center;
+            border-bottom: 2px solid #007BFF;
+            padding-bottom: 10px;
+            color: #00bcd4;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            padding: 12px 0;
+            border-bottom: 1px solid #333;
+        }
+        .contact a {
+            color: #00bcd4;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        .contact a:hover {
+            color: #ff4081;
+        }
+        .btn {
+            display: block;
+            width: fit-content;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background: #00bcd4;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        .btn:hover {
+            background: #ff4081;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>V. Pramod Reddy</h1>
+        <p>Python banckend, AWS Cloud & Embedded Systems Engineer</p>
+    </header>
+    
+    <section class="about">
+        <h2>About Me</h2>
+        <p>I am a B.Tech student specializing in Electronics and Communication Engineering, with hands-on experience in AWS cloud services, embedded systems, and automation.</p>
+        <p>I have worked on various projects focusing on infrastructure automation, cost optimization, and IoT-based solutions.</p>
+        <button class="btn">Download Resume</button>
+    </section>
+    
+    <section class="experience">
+        <h2>Experience</h2>
+        <ul>
+            <li><strong>Reva University, Bangalore - Student</strong>
+                <p>Worked on embedded testing of an IoT-based Smart Plant Monitoring System.</p>
+                <p>Hands-on experience with AWS services including EC2, S3, IAM, and VPC.</p>
+            </li>
+        </ul>
+    </section>
+    
+    <section class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Python, C, SQL, Terraform</li>
+            <li>AWS (EC2, S3, IAM, VPC, CloudWatch)</li>
+            <li>Linux Administration, Git/GitHub</li>
+            <li>Embedded Systems & IoT Development</li>
+        </ul>
+    </section>
+    
+    <section class="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:pramod.venuturla@gmail.com">pramod.venuturla@gmail.com</a></p>
+        <p>Phone: <a href="tel:+917995350899">+91 7995350899</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/pramod-reddy-venuthurla-288b16218" target="_blank">LinkedIn Profile</a></p>
+    </section>
+</body>
+</html>
